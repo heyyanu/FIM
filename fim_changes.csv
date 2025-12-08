@@ -1,0 +1,12 @@
+timestamp,change_type,file,new_hash
+2025-12-05T17:55:19.979179,baseline,/Users/apple/Last project/test_last/test1.txt,b127426e8a824018ec504ea4c7bfcdf11ee00a920f47ddde3240b59ab3bebb80
+2025-12-05T17:55:19.980271,baseline,/Users/apple/Last project/test_last/test3.txt,9f7d38cfd830a65eaec1e1ec6f80a5de34bbc0c8c658ccc04b65fd406cdad6cc
+2025-12-05T17:55:19.980449,baseline,/Users/apple/Last project/test_last/test.txt,b127426e8a824018ec504ea4c7bfcdf11ee00a920f47ddde3240b59ab3bebb80
+2025-12-05T17:55:19.980577,baseline,/Users/apple/Last project/test_last/hello.txt,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-12-05T17:57:35.778073,modified,/Users/apple/Last project/test_last/test3.txt,b0cf0d6fee6755b85c25d88392d109c8f771d568da99b32f37f1475a13191067
+2025-12-08T08:57:13.156638,added,/Users/apple/Last project/test_last/check.txt,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-12-08T09:02:28.255345,added,/Users/apple/Last project/test_last/check1.txt,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-12-08T09:03:10.154268,modified,/Users/apple/Last project/test_last/check1.txt,e50ab0839519c9c2c7766e0cd40727c9ebbcdae90921025610da122007d3d924
+2025-12-08T09:03:21.172014,modified,/Users/apple/Last project/test_last/check1.txt,4b8da896c593086961f56dacba492f5bfe2a2bdd1c9687035c00cddfe0c1ed0c
+2025-12-08T10:20:50.192117,added,/Users/apple/Last project/test_last/anu.txt,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-12-08T10:24:09.128280,added,/Users/apple/Last project/test_last/anu1.txt,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855

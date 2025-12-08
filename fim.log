@@ -1,0 +1,126 @@
+2025-12-02 13:12:14,437 - INFO - FIM_EVENT: {'event': 'file_integrity_change', 'change_type': 'added', 'file': '/Users/apple/FIM/file.test/test1.txt', 'old_hash': None, 'new_hash': 'b9ac036141edb5fef7d070c8bf90718949a26fd47edd6cfa7b23f96351309962', 'timestamp': '2025-12-02T07:42:14.436684'}
+2025-12-02 13:12:14,437 - WARNING - [ALERT] 2025-12-02T07:42:14.436684 | ADDED | /Users/apple/FIM/file.test/test1.txt | old_hash=None | new_hash=b9ac036141edb5fef7d070c8bf90718949a26fd47edd6cfa7b23f96351309962
+2025-12-02 13:12:15,841 - INFO - Jira issue created: LP-1
+2025-12-02 13:12:15,845 - INFO - FIM_EVENT: {'event': 'file_integrity_change', 'change_type': 'added', 'file': '/Users/apple/FIM/file.test/test2.txt', 'old_hash': None, 'new_hash': 'd8fe54ffc8b12d9257714ade83143c149394ff29a435d47e5f491f8007636658', 'timestamp': '2025-12-02T07:42:15.845381'}
+2025-12-02 13:12:15,845 - WARNING - [ALERT] 2025-12-02T07:42:15.845381 | ADDED | /Users/apple/FIM/file.test/test2.txt | old_hash=None | new_hash=d8fe54ffc8b12d9257714ade83143c149394ff29a435d47e5f491f8007636658
+2025-12-02 13:12:16,869 - INFO - Jira issue created: LP-2
+2025-12-02 13:12:16,872 - INFO - FIM_EVENT: {'event': 'file_integrity_change', 'change_type': 'added', 'file': '/Users/apple/FIM/file.test/file_hashes.json', 'old_hash': None, 'new_hash': '0649a33e96433c89632170e7277cdfbf1ad3a88cab1142716012c11ea8311d42', 'timestamp': '2025-12-02T07:42:16.872513'}
+2025-12-02 13:12:16,873 - WARNING - [ALERT] 2025-12-02T07:42:16.872513 | ADDED | /Users/apple/FIM/file.test/file_hashes.json | old_hash=None | new_hash=0649a33e96433c89632170e7277cdfbf1ad3a88cab1142716012c11ea8311d42
+2025-12-02 13:12:17,768 - INFO - Jira issue created: LP-3
+2025-12-02 13:14:34,535 - INFO - FIM_EVENT: {'event': 'file_integrity_change', 'change_type': 'removed', 'file': '/Users/apple/FIM/file.test/test1.txt', 'old_hash': 'b9ac036141edb5fef7d070c8bf90718949a26fd47edd6cfa7b23f96351309962', 'new_hash': None, 'timestamp': '2025-12-02T07:44:34.535254'}
+2025-12-02 13:14:34,536 - WARNING - [ALERT] 2025-12-02T07:44:34.535254 | REMOVED | /Users/apple/FIM/file.test/test1.txt | old_hash=b9ac036141edb5fef7d070c8bf90718949a26fd47edd6cfa7b23f96351309962 | new_hash=None
+2025-12-02 13:14:35,707 - INFO - Jira issue created: LP-4
+2025-12-02 13:14:35,710 - INFO - FIM_EVENT: {'event': 'file_integrity_change', 'change_type': 'removed', 'file': '/Users/apple/FIM/file.test/test2.txt', 'old_hash': 'd8fe54ffc8b12d9257714ade83143c149394ff29a435d47e5f491f8007636658', 'new_hash': None, 'timestamp': '2025-12-02T07:44:35.710269'}
+2025-12-02 13:14:35,710 - WARNING - [ALERT] 2025-12-02T07:44:35.710269 | REMOVED | /Users/apple/FIM/file.test/test2.txt | old_hash=d8fe54ffc8b12d9257714ade83143c149394ff29a435d47e5f491f8007636658 | new_hash=None
+2025-12-02 13:14:36,948 - INFO - Jira issue created: LP-5
+2025-12-02 13:14:36,950 - INFO - FIM_EVENT: {'event': 'file_integrity_change', 'change_type': 'removed', 'file': '/Users/apple/FIM/file.test/file_hashes.json', 'old_hash': '0649a33e96433c89632170e7277cdfbf1ad3a88cab1142716012c11ea8311d42', 'new_hash': None, 'timestamp': '2025-12-02T07:44:36.950503'}
+2025-12-02 13:14:36,950 - WARNING - [ALERT] 2025-12-02T07:44:36.950503 | REMOVED | /Users/apple/FIM/file.test/file_hashes.json | old_hash=0649a33e96433c89632170e7277cdfbf1ad3a88cab1142716012c11ea8311d42 | new_hash=None
+2025-12-02 13:14:38,078 - INFO - Jira issue created: LP-6
+2025-12-02 13:15:08,096 - INFO - FIM_EVENT: {'event': 'file_integrity_change', 'change_type': 'added', 'file': '/Users/apple/Last project/test_last/test.txt', 'old_hash': None, 'new_hash': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'timestamp': '2025-12-02T07:45:08.096443'}
+2025-12-02 13:15:08,098 - WARNING - [ALERT] 2025-12-02T07:45:08.096443 | ADDED | /Users/apple/Last project/test_last/test.txt | old_hash=None | new_hash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-12-02 13:15:09,252 - INFO - Jira issue created: LP-7
+2025-12-02 13:15:39,276 - INFO - FIM_EVENT: {'event': 'file_integrity_change', 'change_type': 'modified', 'file': '/Users/apple/Last project/test_last/test.txt', 'old_hash': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'new_hash': '5891b5b522d5df086d0ff0b110fbd9d21bb4fc7163af34d08286a2e846f6be03', 'timestamp': '2025-12-02T07:45:39.276070'}
+2025-12-02 13:15:39,278 - WARNING - [ALERT] 2025-12-02T07:45:39.276070 | MODIFIED | /Users/apple/Last project/test_last/test.txt | old_hash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 | new_hash=5891b5b522d5df086d0ff0b110fbd9d21bb4fc7163af34d08286a2e846f6be03
+2025-12-02 13:15:40,190 - INFO - Jira issue created: LP-8
+2025-12-02 13:15:50,196 - INFO - FIM_EVENT: {'event': 'file_integrity_change', 'change_type': 'modified', 'file': '/Users/apple/Last project/test_last/test.txt', 'old_hash': '5891b5b522d5df086d0ff0b110fbd9d21bb4fc7163af34d08286a2e846f6be03', 'new_hash': '562eb29a0087f0d1234487cb9c1207fe65d9fc8b1235c092e70334761657f187', 'timestamp': '2025-12-02T07:45:50.196706'}
+2025-12-02 13:15:50,197 - WARNING - [ALERT] 2025-12-02T07:45:50.196706 | MODIFIED | /Users/apple/Last project/test_last/test.txt | old_hash=5891b5b522d5df086d0ff0b110fbd9d21bb4fc7163af34d08286a2e846f6be03 | new_hash=562eb29a0087f0d1234487cb9c1207fe65d9fc8b1235c092e70334761657f187
+2025-12-02 13:15:51,695 - INFO - Jira issue created: LP-9
+2025-12-02 13:16:21,705 - INFO - FIM_EVENT: {'event': 'file_integrity_change', 'change_type': 'removed', 'file': '/Users/apple/Last project/test_last/test.txt', 'old_hash': '562eb29a0087f0d1234487cb9c1207fe65d9fc8b1235c092e70334761657f187', 'new_hash': None, 'timestamp': '2025-12-02T07:46:21.705473'}
+2025-12-02 13:16:21,707 - WARNING - [ALERT] 2025-12-02T07:46:21.705473 | REMOVED | /Users/apple/Last project/test_last/test.txt | old_hash=562eb29a0087f0d1234487cb9c1207fe65d9fc8b1235c092e70334761657f187 | new_hash=None
+2025-12-02 13:16:22,825 - INFO - Jira issue created: LP-10
+2025-12-02 14:23:10,706 - INFO - FIM_EVENT: {'timestamp': '2025-12-02T08:53:10.706863', 'change_type': 'added', 'file': '/Users/apple/Last project/test_last/test.txt', 'old_hash': None, 'new_hash': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}
+2025-12-02 14:23:10,708 - WARNING - [ALERT] 2025-12-02T08:53:10.706863 | ADDED | /Users/apple/Last project/test_last/test.txt | old_hash=None | new_hash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-12-02 14:23:12,168 - INFO - Jira issue created: LP-11
+2025-12-02 14:23:32,184 - INFO - FIM_EVENT: {'timestamp': '2025-12-02T08:53:32.184760', 'change_type': 'modified', 'file': '/Users/apple/Last project/test_last/test.txt', 'old_hash': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'new_hash': '5891b5b522d5df086d0ff0b110fbd9d21bb4fc7163af34d08286a2e846f6be03'}
+2025-12-02 14:23:32,185 - WARNING - [ALERT] 2025-12-02T08:53:32.184760 | MODIFIED | /Users/apple/Last project/test_last/test.txt | old_hash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 | new_hash=5891b5b522d5df086d0ff0b110fbd9d21bb4fc7163af34d08286a2e846f6be03
+2025-12-02 14:23:33,284 - INFO - Jira issue created: LP-12
+2025-12-02 14:23:43,293 - INFO - FIM_EVENT: {'timestamp': '2025-12-02T08:53:43.293755', 'change_type': 'modified', 'file': '/Users/apple/Last project/test_last/test.txt', 'old_hash': '5891b5b522d5df086d0ff0b110fbd9d21bb4fc7163af34d08286a2e846f6be03', 'new_hash': '562eb29a0087f0d1234487cb9c1207fe65d9fc8b1235c092e70334761657f187'}
+2025-12-02 14:23:43,294 - WARNING - [ALERT] 2025-12-02T08:53:43.293755 | MODIFIED | /Users/apple/Last project/test_last/test.txt | old_hash=5891b5b522d5df086d0ff0b110fbd9d21bb4fc7163af34d08286a2e846f6be03 | new_hash=562eb29a0087f0d1234487cb9c1207fe65d9fc8b1235c092e70334761657f187
+2025-12-02 14:23:44,353 - INFO - Jira issue created: LP-13
+2025-12-02 14:24:14,371 - INFO - FIM_EVENT: {'timestamp': '2025-12-02T08:54:14.371401', 'change_type': 'added', 'file': '/Users/apple/Last project/test_last/test1.txt', 'old_hash': None, 'new_hash': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}
+2025-12-02 14:24:14,371 - WARNING - [ALERT] 2025-12-02T08:54:14.371401 | ADDED | /Users/apple/Last project/test_last/test1.txt | old_hash=None | new_hash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-12-02 14:24:15,608 - INFO - Jira issue created: LP-14
+2025-12-02 14:24:45,625 - INFO - FIM_EVENT: {'timestamp': '2025-12-02T08:54:45.625563', 'change_type': 'added', 'file': '/Users/apple/Last project/test_last/test3.txt', 'old_hash': None, 'new_hash': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}
+2025-12-02 14:24:45,626 - WARNING - [ALERT] 2025-12-02T08:54:45.625563 | ADDED | /Users/apple/Last project/test_last/test3.txt | old_hash=None | new_hash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-12-02 14:24:46,544 - INFO - Jira issue created: LP-15
+2025-12-02 14:25:16,560 - INFO - FIM_EVENT: {'timestamp': '2025-12-02T08:55:16.560310', 'change_type': 'modified', 'file': '/Users/apple/Last project/test_last/test.txt', 'old_hash': '562eb29a0087f0d1234487cb9c1207fe65d9fc8b1235c092e70334761657f187', 'new_hash': 'dc39effe8e6f0ee13fb32b077d0cca6002d0dcfb09391f6dfb44435473a2bca6'}
+2025-12-02 14:25:16,561 - WARNING - [ALERT] 2025-12-02T08:55:16.560310 | MODIFIED | /Users/apple/Last project/test_last/test.txt | old_hash=562eb29a0087f0d1234487cb9c1207fe65d9fc8b1235c092e70334761657f187 | new_hash=dc39effe8e6f0ee13fb32b077d0cca6002d0dcfb09391f6dfb44435473a2bca6
+2025-12-02 14:25:18,090 - INFO - Jira issue created: LP-16
+2025-12-02 14:25:28,101 - INFO - FIM_EVENT: {'timestamp': '2025-12-02T08:55:28.101369', 'change_type': 'modified', 'file': '/Users/apple/Last project/test_last/test.txt', 'old_hash': 'dc39effe8e6f0ee13fb32b077d0cca6002d0dcfb09391f6dfb44435473a2bca6', 'new_hash': 'b127426e8a824018ec504ea4c7bfcdf11ee00a920f47ddde3240b59ab3bebb80'}
+2025-12-02 14:25:28,102 - WARNING - [ALERT] 2025-12-02T08:55:28.101369 | MODIFIED | /Users/apple/Last project/test_last/test.txt | old_hash=dc39effe8e6f0ee13fb32b077d0cca6002d0dcfb09391f6dfb44435473a2bca6 | new_hash=b127426e8a824018ec504ea4c7bfcdf11ee00a920f47ddde3240b59ab3bebb80
+2025-12-02 14:25:29,095 - INFO - Jira issue created: LP-17
+2025-12-02 14:29:49,203 - INFO - FIM_EVENT: {'timestamp': '2025-12-02T08:59:49.203592', 'change_type': 'modified', 'file': '/Users/apple/Last project/test_last/test1.txt', 'old_hash': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'new_hash': 'b127426e8a824018ec504ea4c7bfcdf11ee00a920f47ddde3240b59ab3bebb80'}
+2025-12-02 14:29:49,205 - WARNING - [ALERT] 2025-12-02T08:59:49.203592 | MODIFIED | /Users/apple/Last project/test_last/test1.txt | old_hash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 | new_hash=b127426e8a824018ec504ea4c7bfcdf11ee00a920f47ddde3240b59ab3bebb80
+2025-12-02 14:29:50,380 - INFO - Jira issue created: LP-18
+2025-12-02 14:49:20,048 - INFO - FIM_EVENT: {'timestamp': '2025-12-02T09:19:20.048078', 'change_type': 'modified', 'file': '/Users/apple/Last project/test_last/test3.txt', 'old_hash': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'new_hash': 'c23284706c4802462e0097a1d02a5fae3d8c80cd350c84161136fbf0b0aa5073'}
+2025-12-02 14:49:20,050 - WARNING - [ALERT] 2025-12-02T09:19:20.048078 | MODIFIED | /Users/apple/Last project/test_last/test3.txt | old_hash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 | new_hash=c23284706c4802462e0097a1d02a5fae3d8c80cd350c84161136fbf0b0aa5073
+2025-12-02 14:49:21,280 - INFO - Jira issue created: LP-19
+2025-12-02 15:21:31,649 - INFO - FIM_EVENT: {'timestamp': '2025-12-02T09:51:31.649326', 'change_type': 'removed', 'file': '/Users/apple/FIM/file.test/test1.txt', 'old_hash': 'b9ac036141edb5fef7d070c8bf90718949a26fd47edd6cfa7b23f96351309962', 'new_hash': None}
+2025-12-02 15:21:31,649 - WARNING - [ALERT] 2025-12-02T09:51:31.649326 | REMOVED | /Users/apple/FIM/file.test/test1.txt | old_hash=b9ac036141edb5fef7d070c8bf90718949a26fd47edd6cfa7b23f96351309962 | new_hash=None
+2025-12-02 15:21:32,833 - INFO - Jira issue created: LP-27
+2025-12-02 15:21:32,836 - INFO - FIM_EVENT: {'timestamp': '2025-12-02T09:51:32.836912', 'change_type': 'removed', 'file': '/Users/apple/FIM/file.test/test2.txt', 'old_hash': 'd8fe54ffc8b12d9257714ade83143c149394ff29a435d47e5f491f8007636658', 'new_hash': None}
+2025-12-02 15:21:32,837 - WARNING - [ALERT] 2025-12-02T09:51:32.836912 | REMOVED | /Users/apple/FIM/file.test/test2.txt | old_hash=d8fe54ffc8b12d9257714ade83143c149394ff29a435d47e5f491f8007636658 | new_hash=None
+2025-12-02 15:21:33,828 - INFO - Jira issue created: LP-28
+2025-12-02 15:21:33,832 - INFO - FIM_EVENT: {'timestamp': '2025-12-02T09:51:33.832110', 'change_type': 'removed', 'file': '/Users/apple/FIM/file.test/file_hashes.json', 'old_hash': '0649a33e96433c89632170e7277cdfbf1ad3a88cab1142716012c11ea8311d42', 'new_hash': None}
+2025-12-02 15:21:33,832 - WARNING - [ALERT] 2025-12-02T09:51:33.832110 | REMOVED | /Users/apple/FIM/file.test/file_hashes.json | old_hash=0649a33e96433c89632170e7277cdfbf1ad3a88cab1142716012c11ea8311d42 | new_hash=None
+2025-12-02 15:21:34,657 - INFO - Jira issue created: LP-29
+2025-12-02 15:22:14,672 - INFO - FIM_EVENT: {'timestamp': '2025-12-02T09:52:14.672818', 'change_type': 'modified', 'file': '/Users/apple/Last project/test_last/test3.txt', 'old_hash': 'cd802805b116397d77d8849b8eec1b5cedba466c4a05c6f15198539a394b3cb2', 'new_hash': '3a29430f88c6fbab969e635c87a6eff594c9b2e4d2140e48ece793cc46311edc'}
+2025-12-02 15:22:14,673 - WARNING - [ALERT] 2025-12-02T09:52:14.672818 | MODIFIED | /Users/apple/Last project/test_last/test3.txt | old_hash=cd802805b116397d77d8849b8eec1b5cedba466c4a05c6f15198539a394b3cb2 | new_hash=3a29430f88c6fbab969e635c87a6eff594c9b2e4d2140e48ece793cc46311edc
+2025-12-02 15:22:16,280 - INFO - Jira issue created: LP-30
+2025-12-02 15:24:06,336 - INFO - FIM_EVENT: {'timestamp': '2025-12-02T09:54:06.336431', 'change_type': 'modified', 'file': '/Users/apple/Last project/test_last/test3.txt', 'old_hash': '3a29430f88c6fbab969e635c87a6eff594c9b2e4d2140e48ece793cc46311edc', 'new_hash': '7be9e038d0ad4526c86344fdda5380feb8b788f6be63d885d68a3ca96933a8cb'}
+2025-12-02 15:24:06,336 - WARNING - [ALERT] 2025-12-02T09:54:06.336431 | MODIFIED | /Users/apple/Last project/test_last/test3.txt | old_hash=3a29430f88c6fbab969e635c87a6eff594c9b2e4d2140e48ece793cc46311edc | new_hash=7be9e038d0ad4526c86344fdda5380feb8b788f6be63d885d68a3ca96933a8cb
+2025-12-02 15:24:08,166 - INFO - Jira issue created: LP-31
+2025-12-02 15:24:29,157 - INFO - FIM_EVENT: {'timestamp': '2025-12-02T09:54:29.157557', 'change_type': 'removed', 'file': '/Users/apple/FIM/file.test/test1.txt', 'old_hash': 'b9ac036141edb5fef7d070c8bf90718949a26fd47edd6cfa7b23f96351309962', 'new_hash': None}
+2025-12-02 15:24:29,158 - WARNING - [ALERT] 2025-12-02T09:54:29.157557 | REMOVED | /Users/apple/FIM/file.test/test1.txt | old_hash=b9ac036141edb5fef7d070c8bf90718949a26fd47edd6cfa7b23f96351309962 | new_hash=None
+2025-12-02 15:24:30,154 - INFO - Jira issue created: LP-32
+2025-12-02 15:24:30,157 - INFO - FIM_EVENT: {'timestamp': '2025-12-02T09:54:30.157490', 'change_type': 'removed', 'file': '/Users/apple/FIM/file.test/test2.txt', 'old_hash': 'd8fe54ffc8b12d9257714ade83143c149394ff29a435d47e5f491f8007636658', 'new_hash': None}
+2025-12-02 15:24:30,157 - WARNING - [ALERT] 2025-12-02T09:54:30.157490 | REMOVED | /Users/apple/FIM/file.test/test2.txt | old_hash=d8fe54ffc8b12d9257714ade83143c149394ff29a435d47e5f491f8007636658 | new_hash=None
+2025-12-02 15:24:31,189 - INFO - Jira issue created: LP-33
+2025-12-02 15:24:31,193 - INFO - FIM_EVENT: {'timestamp': '2025-12-02T09:54:31.193876', 'change_type': 'removed', 'file': '/Users/apple/FIM/file.test/file_hashes.json', 'old_hash': '0649a33e96433c89632170e7277cdfbf1ad3a88cab1142716012c11ea8311d42', 'new_hash': None}
+2025-12-02 15:24:31,194 - WARNING - [ALERT] 2025-12-02T09:54:31.193876 | REMOVED | /Users/apple/FIM/file.test/file_hashes.json | old_hash=0649a33e96433c89632170e7277cdfbf1ad3a88cab1142716012c11ea8311d42 | new_hash=None
+2025-12-02 15:24:32,350 - INFO - Jira issue created: LP-34
+2025-12-02 15:25:42,375 - INFO - FIM_EVENT: {'timestamp': '2025-12-02T09:55:42.375339', 'change_type': 'modified', 'file': '/Users/apple/Last project/test_last/test3.txt', 'old_hash': '7be9e038d0ad4526c86344fdda5380feb8b788f6be63d885d68a3ca96933a8cb', 'new_hash': '9f7d38cfd830a65eaec1e1ec6f80a5de34bbc0c8c658ccc04b65fd406cdad6cc'}
+2025-12-02 15:25:42,377 - WARNING - [ALERT] 2025-12-02T09:55:42.375339 | MODIFIED | /Users/apple/Last project/test_last/test3.txt | old_hash=7be9e038d0ad4526c86344fdda5380feb8b788f6be63d885d68a3ca96933a8cb | new_hash=9f7d38cfd830a65eaec1e1ec6f80a5de34bbc0c8c658ccc04b65fd406cdad6cc
+2025-12-02 15:25:44,153 - INFO - Jira issue created: LP-35
+2025-12-05 23:13:09,186 - INFO - FIM_EVENT: {'timestamp': '2025-12-05T17:43:09.185839', 'change_type': 'removed', 'file': '/Users/apple/FIM/file.test/test1.txt', 'old_hash': 'b9ac036141edb5fef7d070c8bf90718949a26fd47edd6cfa7b23f96351309962', 'new_hash': None}
+2025-12-05 23:13:09,187 - WARNING - [ALERT] 2025-12-05T17:43:09.185839 | REMOVED | /Users/apple/FIM/file.test/test1.txt | old_hash=b9ac036141edb5fef7d070c8bf90718949a26fd47edd6cfa7b23f96351309962 | new_hash=None
+2025-12-05 23:13:10,444 - INFO - Jira issue created: LP-36
+2025-12-05 23:13:10,447 - INFO - FIM_EVENT: {'timestamp': '2025-12-05T17:43:10.447546', 'change_type': 'removed', 'file': '/Users/apple/FIM/file.test/test2.txt', 'old_hash': 'd8fe54ffc8b12d9257714ade83143c149394ff29a435d47e5f491f8007636658', 'new_hash': None}
+2025-12-05 23:13:10,448 - WARNING - [ALERT] 2025-12-05T17:43:10.447546 | REMOVED | /Users/apple/FIM/file.test/test2.txt | old_hash=d8fe54ffc8b12d9257714ade83143c149394ff29a435d47e5f491f8007636658 | new_hash=None
+2025-12-05 23:13:11,200 - INFO - Jira issue created: LP-37
+2025-12-05 23:13:11,204 - INFO - FIM_EVENT: {'timestamp': '2025-12-05T17:43:11.204672', 'change_type': 'removed', 'file': '/Users/apple/FIM/file.test/file_hashes.json', 'old_hash': '0649a33e96433c89632170e7277cdfbf1ad3a88cab1142716012c11ea8311d42', 'new_hash': None}
+2025-12-05 23:13:11,205 - WARNING - [ALERT] 2025-12-05T17:43:11.204672 | REMOVED | /Users/apple/FIM/file.test/file_hashes.json | old_hash=0649a33e96433c89632170e7277cdfbf1ad3a88cab1142716012c11ea8311d42 | new_hash=None
+2025-12-05 23:13:12,395 - INFO - Jira issue created: LP-38
+2025-12-05 23:14:02,417 - INFO - FIM_EVENT: {'timestamp': '2025-12-05T17:44:02.417814', 'change_type': 'added', 'file': '/Users/apple/Last project/test_last/hello.txt', 'old_hash': None, 'new_hash': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}
+2025-12-05 23:14:02,418 - WARNING - [ALERT] 2025-12-05T17:44:02.417814 | ADDED | /Users/apple/Last project/test_last/hello.txt | old_hash=None | new_hash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-12-05 23:14:03,400 - INFO - Jira issue created: LP-39
+2025-12-05 23:14:53,324 - INFO - FIM_EVENT: {'timestamp': '2025-12-05T17:44:53.324073', 'change_type': 'removed', 'file': '/Users/apple/FIM/file.test/test1.txt', 'old_hash': 'b9ac036141edb5fef7d070c8bf90718949a26fd47edd6cfa7b23f96351309962', 'new_hash': None}
+2025-12-05 23:14:53,324 - WARNING - [ALERT] 2025-12-05T17:44:53.324073 | REMOVED | /Users/apple/FIM/file.test/test1.txt | old_hash=b9ac036141edb5fef7d070c8bf90718949a26fd47edd6cfa7b23f96351309962 | new_hash=None
+2025-12-05 23:14:54,395 - INFO - Jira issue created: LP-40
+2025-12-05 23:14:54,399 - INFO - FIM_EVENT: {'timestamp': '2025-12-05T17:44:54.399011', 'change_type': 'removed', 'file': '/Users/apple/FIM/file.test/test2.txt', 'old_hash': 'd8fe54ffc8b12d9257714ade83143c149394ff29a435d47e5f491f8007636658', 'new_hash': None}
+2025-12-05 23:14:54,399 - WARNING - [ALERT] 2025-12-05T17:44:54.399011 | REMOVED | /Users/apple/FIM/file.test/test2.txt | old_hash=d8fe54ffc8b12d9257714ade83143c149394ff29a435d47e5f491f8007636658 | new_hash=None
+2025-12-05 23:14:55,240 - INFO - Jira issue created: LP-41
+2025-12-05 23:14:55,244 - INFO - FIM_EVENT: {'timestamp': '2025-12-05T17:44:55.244142', 'change_type': 'removed', 'file': '/Users/apple/FIM/file.test/file_hashes.json', 'old_hash': '0649a33e96433c89632170e7277cdfbf1ad3a88cab1142716012c11ea8311d42', 'new_hash': None}
+2025-12-05 23:14:55,244 - WARNING - [ALERT] 2025-12-05T17:44:55.244142 | REMOVED | /Users/apple/FIM/file.test/file_hashes.json | old_hash=0649a33e96433c89632170e7277cdfbf1ad3a88cab1142716012c11ea8311d42 | new_hash=None
+2025-12-05 23:14:56,132 - INFO - Jira issue created: LP-42
+2025-12-05 23:27:35,778 - INFO - FIM_EVENT: {'timestamp': '2025-12-05T17:57:35.778073', 'change_type': 'modified', 'file': '/Users/apple/Last project/test_last/test3.txt', 'old_hash': '9f7d38cfd830a65eaec1e1ec6f80a5de34bbc0c8c658ccc04b65fd406cdad6cc', 'new_hash': 'b0cf0d6fee6755b85c25d88392d109c8f771d568da99b32f37f1475a13191067'}
+2025-12-05 23:27:35,780 - WARNING - [ALERT] 2025-12-05T17:57:35.778073 | MODIFIED | /Users/apple/Last project/test_last/test3.txt | old_hash=9f7d38cfd830a65eaec1e1ec6f80a5de34bbc0c8c658ccc04b65fd406cdad6cc | new_hash=b0cf0d6fee6755b85c25d88392d109c8f771d568da99b32f37f1475a13191067
+2025-12-05 23:27:37,270 - INFO - Jira issue created: LP-43
+2025-12-08 14:27:13,156 - INFO - FIM_EVENT: {'timestamp': '2025-12-08T08:57:13.156638', 'change_type': 'added', 'file': '/Users/apple/Last project/test_last/check.txt', 'old_hash': None, 'new_hash': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}
+2025-12-08 14:27:13,159 - WARNING - [ALERT] 2025-12-08T08:57:13.156638 | ADDED | /Users/apple/Last project/test_last/check.txt | old_hash=None | new_hash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-12-08 14:27:14,092 - ERROR - Jira error: 401 - {"errorMessages":["You do not have permission to create issues in this project."],"errors":{}}
+2025-12-08 14:32:28,255 - INFO - FIM_EVENT: {'timestamp': '2025-12-08T09:02:28.255345', 'change_type': 'added', 'file': '/Users/apple/Last project/test_last/check1.txt', 'old_hash': None, 'new_hash': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}
+2025-12-08 14:32:28,259 - WARNING - [ALERT] 2025-12-08T09:02:28.255345 | ADDED | /Users/apple/Last project/test_last/check1.txt | old_hash=None | new_hash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-12-08 14:32:30,131 - INFO - Jira issue created: LP-44
+2025-12-08 14:33:10,154 - INFO - FIM_EVENT: {'timestamp': '2025-12-08T09:03:10.154268', 'change_type': 'modified', 'file': '/Users/apple/Last project/test_last/check1.txt', 'old_hash': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', 'new_hash': 'e50ab0839519c9c2c7766e0cd40727c9ebbcdae90921025610da122007d3d924'}
+2025-12-08 14:33:10,156 - WARNING - [ALERT] 2025-12-08T09:03:10.154268 | MODIFIED | /Users/apple/Last project/test_last/check1.txt | old_hash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 | new_hash=e50ab0839519c9c2c7766e0cd40727c9ebbcdae90921025610da122007d3d924
+2025-12-08 14:33:11,163 - INFO - Jira issue created: LP-45
+2025-12-08 14:33:21,172 - INFO - FIM_EVENT: {'timestamp': '2025-12-08T09:03:21.172014', 'change_type': 'modified', 'file': '/Users/apple/Last project/test_last/check1.txt', 'old_hash': 'e50ab0839519c9c2c7766e0cd40727c9ebbcdae90921025610da122007d3d924', 'new_hash': '4b8da896c593086961f56dacba492f5bfe2a2bdd1c9687035c00cddfe0c1ed0c'}
+2025-12-08 14:33:21,172 - WARNING - [ALERT] 2025-12-08T09:03:21.172014 | MODIFIED | /Users/apple/Last project/test_last/check1.txt | old_hash=e50ab0839519c9c2c7766e0cd40727c9ebbcdae90921025610da122007d3d924 | new_hash=4b8da896c593086961f56dacba492f5bfe2a2bdd1c9687035c00cddfe0c1ed0c
+2025-12-08 14:33:22,185 - INFO - Jira issue created: LP-46
+2025-12-08 15:50:50,192 - INFO - FIM_EVENT: {'timestamp': '2025-12-08T10:20:50.192117', 'change_type': 'added', 'file': '/Users/apple/Last project/test_last/anu.txt', 'old_hash': None, 'new_hash': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}
+2025-12-08 15:50:50,193 - WARNING - [ALERT] 2025-12-08T10:20:50.192117 | ADDED | /Users/apple/Last project/test_last/anu.txt | old_hash=None | new_hash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-12-08 15:50:51,805 - INFO - Jira issue created: LP-47
+2025-12-08 15:54:09,128 - INFO - FIM_EVENT: {'timestamp': '2025-12-08T10:24:09.128280', 'change_type': 'added', 'file': '/Users/apple/Last project/test_last/anu1.txt', 'old_hash': None, 'new_hash': 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'}
+2025-12-08 15:54:09,129 - WARNING - [ALERT] 2025-12-08T10:24:09.128280 | ADDED | /Users/apple/Last project/test_last/anu1.txt | old_hash=None | new_hash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+2025-12-08 15:54:10,460 - INFO - Jira issue created: LP-48
