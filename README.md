@@ -172,12 +172,3 @@ JIRA_ISSUE_TYPE=Task
 
 This script is provided as-is under no explicit license. Add a license file (e.g., MIT) if you plan to publish it.
 
----
-
-If you want, I can:
-
-* produce a shorter `README.md` suitable for including in a Git repo;
-* generate a sample `.env` file and a `requirements.txt`;
-* modify the script to make Jira optional or to include `removed` events in the CSV.
-
-Tell me which of those you'd like next and I’ll add it directly.
